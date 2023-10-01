@@ -17,3 +17,6 @@ const data = {
   max_tokens: 10,
   temperature: 0.5,
 };
+
+// Send a request to the API to generate tet based on data
+client.post("https://api.openai.com/v1/engines.davinci/completions", data);
