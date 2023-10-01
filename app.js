@@ -10,3 +10,10 @@ const client = axios.create({
     Authorization: "Bearer ${apiKey}", //Use the API key to authenticate the reqest
   },
 });
+
+// Define the text prompt
+const data = {
+  Prompt: "Once upon a time",
+  max_tokens: 10,
+  temperature: 0.5,
+};
